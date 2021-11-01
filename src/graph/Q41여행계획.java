@@ -10,7 +10,7 @@ public class Q41ø©«‡∞Ë»π {
 		Scanner sc = new Scanner(System.in);
 		
 		
-
+		
 	}
 
 }
