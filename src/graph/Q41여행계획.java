@@ -50,7 +50,6 @@ public class Q41ø©«‡∞Ë»π {
 				result = false;
 			}
 		}
-		
 		if(result) System.out.println("YES");
 		else System.out.println("NO");
 		
