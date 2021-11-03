@@ -14,11 +14,11 @@ public class EXQ3음료수얼려먹기 {
 		if(graph[x][y] == 1) return false;
 		
 		if(graph[x][y] == 0) {
+			graph[x][y] = 1;
 			for(int i = 0 ; i < 4; i++) {
 				int nX = x + dx[i];
 				int nY = y + dy[i];
 				if((nX < 0||nX >= N|| nY < 0 || nY >= M)) continue;
-				graph[x][y] = 1;
 				dfs(nX,nY);
 			}
 			return true;
