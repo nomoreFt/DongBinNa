@@ -2,7 +2,7 @@ package dfs_bfs;
 
 import java.util.*;
 
-public class Q楷备家_comb {
+public class Q16楷备家_comb {
 	public static int[][] graph = new int[9][9];
 	public static int[][] temp = new int[9][9];
 	public static int N,M;

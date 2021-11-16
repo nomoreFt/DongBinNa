@@ -41,7 +41,7 @@ class Combination{
     }
 }
 
-public class Q감시피하기_comb {
+public class Q20감시피하기_comb {
 
 	public static String[][] graph = new String[7][7];    
 	public static int N;

@@ -3,7 +3,7 @@ package dfs_bfs;
 import java.util.*;
 
 
-public class Q인구이동 {
+public class Q20인구이동 {
 	public static int N,L,R;
 	public static int[][] graph = new int[51][51];
 	public static int[][] union = new int[51][51];
