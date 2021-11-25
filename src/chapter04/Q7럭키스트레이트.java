@@ -6,10 +6,9 @@ public class Q7럭키스트레이트 {
 	public static int N;
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		N = sc.nextInt();
 		int left = 0;
 		int right = 0;
-		String[] strs = String.valueOf(N).split("");
+		String[] strs = sc.nextLine().split("");
 		
 		for(int i = 0; i < strs.length; i++) {
 			if(i < strs.length/2) {
