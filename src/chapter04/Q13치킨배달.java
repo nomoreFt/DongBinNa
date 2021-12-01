@@ -2,7 +2,7 @@ package chapter04;
 
 import java.util.*;
 import java.io.*;
-
+//
 class Position{
    int x;
    int y;
