@@ -32,7 +32,7 @@ class Combination{
     }
 }
 
-public class Q20°¨½ÃÇÇÇÏ±â_comb {
+public class Q20ê°ì‹œí”¼í•˜ê¸°_comb {
 
 	public static String[][] graph = new String[7][7];    
 	public static int N;
@@ -102,7 +102,7 @@ public class Q20°¨½ÃÇÇÇÏ±â_comb {
 	    	return false;
 	    }
 	    public static boolean watch(int x, int y, int direction) {
-	    	//µ¿¼­³²ºÏ
+	    	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	    	if(direction == 0) {
 	    		while(y<N) {
 	    			if(graph[x][y].equals("S")) return true;

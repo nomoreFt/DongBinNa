@@ -2,7 +2,7 @@ package dfs_bfs;
 
 import java.util.*;
 
-public class Q16¿¬±¸¼Ò_comb {
+public class Q16ì—°êµ¬ì†Œ_comb {
 	public static int[][] graph = new int[9][9];
 	public static int[][] temp = new int[9][9];
 	public static int N,M;
@@ -17,7 +17,7 @@ public class Q16¿¬±¸¼Ò_comb {
 		
 		N = sc.nextInt();
 		M = sc.nextInt();
-		//ÃÊ±â ¼ÂÆÃ
+		//ï¿½Ê±ï¿½ ï¿½ï¿½ï¿½ï¿½
 		for(int i = 0; i < N; i++) {
 			for(int j = 0 ; j <M; j++) {
 				graph[i][j] = sc.nextInt();
@@ -37,8 +37,8 @@ public class Q16¿¬±¸¼Ò_comb {
 				int y = virusList.get(i).get(j).y;
 				graph[x][y] = 1;
 			}
-			//temp¿¡ ¿Å°Ü¼­ virus À§Ä¡¸¶´Ù bfs·Î 2¸¦ ÆÛÆ®¸²
-			//ÀÌÈÄ °³¼ö Ã£±â
+			//tempï¿½ï¿½ ï¿½Å°Ü¼ï¿½ virus ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½ bfsï¿½ï¿½ 2ï¿½ï¿½ ï¿½ï¿½Æ®ï¿½ï¿½
+			//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ã£ï¿½ï¿½
 			process();
 				
 			for(int j = 0; j < virusList.get(i).size(); j++) {
@@ -50,13 +50,13 @@ public class Q16¿¬±¸¼Ò_comb {
 		System.out.println(max);
 	}
 	public static void process() {
-		//process ÁøÇàÇÒ ¶§ ¸¶´Ù temp¸¦ graph·Î ÃÊ±âÈ­ (»Á 3°³ ¼¼¿öÁø »óÅÂ)
+		//process ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ tempï¿½ï¿½ graphï¿½ï¿½ ï¿½Ê±ï¿½È­ (ï¿½ï¿½ 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
 		for(int i = 0 ; i < N; i++) {
 			for(int j = 0 ; j < M; j++) {
 				temp[i][j] = graph[i][j];
 			}
 		}
-		//¼¼ ¹ÙÀÌ·¯½º ¸ðµÎ ÀÚ±â ¹ÙÀÌ·¯½º ÆÛÆ®¸®±â
+		//ï¿½ï¿½ ï¿½ï¿½ï¿½Ì·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ú±ï¿½ ï¿½ï¿½ï¿½Ì·ï¿½ï¿½ï¿½ ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½
 		for(int i = 0 ; i < viruses.size(); i++) {
 			int x = viruses.get(i).x;
 			int y = viruses.get(i).y;

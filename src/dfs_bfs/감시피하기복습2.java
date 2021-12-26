@@ -43,7 +43,7 @@ class Position4{
 	}
 }
 
-public class °¨½ÃÇÇÇÏ±âº¹½À2 {
+public class ê°ì‹œí”¼í•˜ê¸°ë³µìŠµ2 {
 	public static ArrayList<Position4> teachers = new ArrayList<Position4>();
 	public static ArrayList<Position4> spaces = new ArrayList<Position4>();
 	public static String[][] graph = new String[7][7];
@@ -65,7 +65,7 @@ public class °¨½ÃÇÇÇÏ±âº¹½À2 {
 		Combination4 com = new Combination4(spaces.size(), 3);
 		com.comb(spaces,0,0,0);
 		ArrayList<ArrayList<Position4>> result = com.result;
-		for(int i = 0 ; i < result.size(); i++) {//ºó °ø°£¿¡ Àå¾Ö¹° 3°³ °æ¿ìÀÇ ¼ö 
+		for(int i = 0 ; i < result.size(); i++) {//ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ö¹ï¿½ 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 
 			for(int j = 0; j < result.get(i).size(); j++) {
 				Position4 p = result.get(i).get(j);
 				graph[p.x][p.y] = "O";
@@ -81,7 +81,7 @@ public class °¨½ÃÇÇÇÏ±âº¹½À2 {
 		}
 		System.out.println("NO");
 	}
-	public static boolean process() {//ÇĞ»ı Ã£À¸¸é true, ¼¼ ¼±»ı ´Ù ¸øÃ£À¸¸é false
+	public static boolean process() {//ï¿½Ğ»ï¿½ Ã£ï¿½ï¿½ï¿½ï¿½ true, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½Ã£ï¿½ï¿½ï¿½ï¿½ false
 		for(int i = 0 ; i < teachers.size(); i++) {
 			Position4 p = teachers.get(i);
 			int x = p.x;
@@ -93,25 +93,25 @@ public class °¨½ÃÇÇÇÏ±âº¹½À2 {
 		return false;
 	}
 	public static boolean findStudent(int x, int y, int target) {
-		if(target == 0) {//µ¿
+		if(target == 0) {//ï¿½ï¿½
 			while(y < N) {
 				if(graph[x][y].equals("O")) return false;
 				if(graph[x][y].equals("S")) return true;
 				y += 1;
 			}
-		}else if(target == 1) {//¼­
+		}else if(target == 1) {//ï¿½ï¿½
 			while(y >= 0) {
 				if(graph[x][y].equals("O")) return false;
 				if(graph[x][y].equals("S")) return true;
 				y -= 1;
 			}
-		}else if(target == 2) {//³²
+		}else if(target == 2) {//ï¿½ï¿½
 			while(x < N) {
 				if(graph[x][y].equals("O")) return false;
 				if(graph[x][y].equals("S")) return true;
 				x += 1;
 			}
-		}else if(target == 3) {//ºÏ
+		}else if(target == 3) {//ï¿½ï¿½
 			while(x >= 0) {
 				if(graph[x][y].equals("O")) return false;
 				if(graph[x][y].equals("S")) return true;

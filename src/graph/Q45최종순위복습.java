@@ -2,7 +2,7 @@ package graph;
 
 import java.util.*;
 
-public class Q45ÃÖÁ¾¼øÀ§º¹½À {
+public class Q45ìµœì¢…ìˆœìœ„ë³µìŠµ {
 	public static int testCase,n,m;
 	public static int[] indegree = new int[501];
 	public static boolean[][] graph = new boolean[501][501];
@@ -51,8 +51,8 @@ public class Q45ÃÖÁ¾¼øÀ§º¹½À {
 			}
 			
 			//topologySort
-			boolean isCycle = false;//q°¡ ¸ÕÀú ºñ¾î¹ö¸®¸é cycle
-			boolean isNotCertain = false;//q¿¡ 2°³ ÀÌ»óÀÎÁö, ±×·³ µÎ°³ µé¾î°¨
+			boolean isCycle = false;//qï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ cycle
+			boolean isNotCertain = false;//qï¿½ï¿½ 2ï¿½ï¿½ ï¿½Ì»ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½×·ï¿½ ï¿½Î°ï¿½ ï¿½ï¿½î°¨
 			
 			ArrayList<Integer> result = new ArrayList<>();
 			Queue<Integer> q = new LinkedList<>();

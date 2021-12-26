@@ -2,7 +2,7 @@ package dfs_bfs;
 
 import java.util.*;
 
-public class Q16¿¬±¸¼Ò {
+public class Q16ì—°êµ¬ì†Œ {
 	public static int n,m;
 	public static int[][] graph = new int[9][9];
 	public static int[][] temp = new int[9][9];
@@ -38,7 +38,7 @@ public class Q16¿¬±¸¼Ò {
 	
 	public static void dfs(int count) {
 		if(count == 3) {
-			//3°³¸é 2 Ã¤¿ö³Ö±â
+			//3ï¿½ï¿½ï¿½ï¿½ 2 Ã¤ï¿½ï¿½ï¿½Ö±ï¿½
 			for(int i = 0 ; i < n; i++) {
 				for(int j = 0 ; j < m; j++) {
 					temp[i][j] = graph[i][j];
@@ -55,7 +55,7 @@ public class Q16¿¬±¸¼Ò {
 			result = Math.max(result, getScore());
 			return;
 		}
-		//¿ïÅ¸¸® ++ ³Ñ±â±â
+		//ï¿½ï¿½Å¸ï¿½ï¿½ ++ ï¿½Ñ±ï¿½ï¿½
 		for(int i = 0; i < n; i++) {
 			for(int j = 0; j < m; j++) {
 				if(graph[i][j] == 0) {

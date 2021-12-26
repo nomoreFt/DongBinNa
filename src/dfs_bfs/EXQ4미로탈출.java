@@ -21,7 +21,7 @@ class Node {
     }
 }
 
-public class EXQ4¹Ì·ÎÅ»Ãâ {
+public class EXQ4ë¯¸ë¡œíƒˆì¶œ {
 	public static int[][] graph = new int[201][201];
 	public static int n, m;
 	 public static int dx[] = {-1, 1, 0, 0};

@@ -1,7 +1,7 @@
 package dfs_bfs;
 import java.util.*;
 
-public class Q19¿¬»êÀÚ³¢¿ö³Ö±â {
+public class Q19ì—°ì‚°ìë¼ì›Œë„£ê¸° {
 	public static ArrayList<Integer> nums = new ArrayList<>();
 	public static int N,a,b,c,d;
 	public static int max = (int) -1e9;
@@ -32,7 +32,7 @@ public class Q19¿¬»êÀÚ³¢¿ö³Ö±â {
 			max = Math.max(max, result);
 			min = Math.min(min, result);
 		}
-		if(a > 0) { // µ¡¼À
+		if(a > 0) { // ï¿½ï¿½ï¿½ï¿½
 			int num = nums.get(depth+1);
 			a -= 1;
 			result += num;
@@ -42,7 +42,7 @@ public class Q19¿¬»êÀÚ³¢¿ö³Ö±â {
 			result -= num;
 			a += 1;
 		}
-		if(b > 0) { // »¬¼À
+		if(b > 0) { // ï¿½ï¿½ï¿½ï¿½
 			int num = nums.get(depth+1);
 			b -= 1;
 			result -= num;
@@ -52,7 +52,7 @@ public class Q19¿¬»êÀÚ³¢¿ö³Ö±â {
 			result += num;
 			b += 1;
 		}
-		if(c > 0) { // °ö¼À
+		if(c > 0) { // ï¿½ï¿½ï¿½ï¿½
 			int num = nums.get(depth+1);
 			c -= 1;
 			result *= num;
@@ -62,7 +62,7 @@ public class Q19¿¬»êÀÚ³¢¿ö³Ö±â {
 			result /= num;
 			c += 1;
 		}
-		if(d > 0) { // ³ª´°¼À
+		if(d > 0) { // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			int num = nums.get(depth+1);
 			d -= 1;
 			result /= num;

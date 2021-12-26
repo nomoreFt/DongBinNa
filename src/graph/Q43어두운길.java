@@ -18,7 +18,7 @@ class Edge implements Comparable<Edge>{
 	}
 }
 
-public class Q43¾îµÎ¿î±æ {
+public class Q43ì–´ë‘ìš´ê¸¸ {
 	public static int N,M;
 	public static ArrayList<Edge> edges = new ArrayList<>();
 	public static int[] parent = new int[200001];

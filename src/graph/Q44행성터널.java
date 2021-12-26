@@ -14,8 +14,8 @@ class Position implements Comparable<Position>{
 	}
 }
 
-public class Q44Çà¼ºÅÍ³Î {
-	public static int N; //Çà¼ºÀÇ °³¼ö
+public class Q44í–‰ì„±í„°ë„ {
+	public static int N; //ï¿½à¼ºï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	public static ArrayList<Edge> edges = new ArrayList<>();
 	public static int[] parent = new int[100001];
 	

@@ -2,7 +2,7 @@ package greedy;
 
 import java.util.*;
 
-public class Q5º¼¸µ°ø°í¸£±â {
+public class Q5ë³¼ë§ê³µê³ ë¥´ê¸° {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);

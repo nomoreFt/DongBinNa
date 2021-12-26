@@ -3,7 +3,7 @@ package dfs_bfs;
 import java.util.*;
 
 
-public class Q20ÀÎ±¸ÀÌµ¿ {
+public class Q20ì¸êµ¬ì´ë™ {
 	public static int N,L,R;
 	public static int[][] graph = new int[51][51];
 	public static int[][] union = new int[51][51];
@@ -15,7 +15,7 @@ public class Q20ÀÎ±¸ÀÌµ¿ {
 		N = sc.nextInt();
 		L = sc.nextInt();
 		R = sc.nextInt();
-		//ÃÊ±â¼ÂÆÃ
+		//ï¿½Ê±ï¿½ï¿½ï¿½ï¿½
 		for(int i = 0 ; i <N; i++) {
 			for (int j = 0 ; j < N; j++) {
 				graph[i][j] = sc.nextInt();

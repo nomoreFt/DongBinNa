@@ -40,7 +40,7 @@ class Combination2{
       comb(arr, depth, index, target+1);
    }
 }
-public class Q13Ä¡Å²¹è´Þ {
+public class Q13ì¹˜í‚¨ë°°ë‹¬ {
    public static int[][] graph;
    public static ArrayList<Position> chics = new ArrayList<>();
    public static ArrayList<Position> houses = new ArrayList<>();
@@ -70,10 +70,10 @@ public class Q13Ä¡Å²¹è´Þ {
       for(int i = 0; i < arr.size(); i++) {
          ArrayList<Position> tail = arr.get(i);
          int sum = 0;
-         for(int j = 0; j < houses.size(); j++) {//ÁýÀÇ °³¼ö¸¸Å­ ¹Ýº¹
+         for(int j = 0; j < houses.size(); j++) {//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å­ ï¿½Ýºï¿½
             Position house = houses.get(j);
             int chicDistance = (int) 1e9;
-            for(int k = 0; k < tail.size(); k++) {//k¹øÂ° Áý°ú ¸ðµç Ä¡Å²Áý°£ÀÇ Ä¡Å²°Å¸®¸¦ ºñ±³ÇÏ¿© °è»ê
+            for(int k = 0; k < tail.size(); k++) {//kï¿½ï¿½Â° ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ Ä¡Å²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ä¡Å²ï¿½Å¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½
                Position chicken = tail.get(k);
                int temp = getDistance(chicken,house);
                chicDistance = Math.min(chicDistance,temp);

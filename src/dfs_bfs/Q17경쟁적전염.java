@@ -19,7 +19,7 @@ class Virus implements Comparable<Virus>{
     }
 }
 
-class Q17°æÀïÀûÀü¿°{
+class Q17ê²½ìŸì ì „ì—¼{
     public static int[][] graph = new int[201][201];
     public static int N,K,S,X,Y;
     public static ArrayList<Virus> virus = new ArrayList<>();

@@ -2,7 +2,7 @@ package chapter04;
 
 import java.util.Scanner;
 
-public class ½Ã°¢ {
+public class ì‹œê° {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		

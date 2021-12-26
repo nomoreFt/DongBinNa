@@ -17,7 +17,7 @@ class Node4 implements Comparable<Node4>{
 
 }
 
-public class Q15Æ¯Á¤°Å¸®ÀÇµµ½ÃÃ£±âº¹½À {
+public class Q15íŠ¹ì •ê±°ë¦¬ì˜ë„ì‹œì°¾ê¸°ë³µìŠµ {
 	public static int[] d = new int[300001];
 	public static int N,M,K,X;
 	public static ArrayList<ArrayList<Node4>> graph = new ArrayList<>();
@@ -26,10 +26,10 @@ public class Q15Æ¯Á¤°Å¸®ÀÇµµ½ÃÃ£±âº¹½À {
 		Scanner sc = new Scanner(System.in);
 		Arrays.fill(d, INF);
 		
-		N = sc.nextInt();//µµ½ÃÀÇ °³¼ö
-		M = sc.nextInt();//µµ·ÎÀÇ °³¼ö
-		K = sc.nextInt();//°Å¸®Á¤º¸(ÃÖ´Ü°Å¸®)
-		X = sc.nextInt();//½ÃÀÛÁ¡
+		N = sc.nextInt();//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		M = sc.nextInt();//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		K = sc.nextInt();//ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½Ö´Ü°Å¸ï¿½)
+		X = sc.nextInt();//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		
 		for(int i = 0; i <= N; i++) {
 			graph.add(new ArrayList<Node4>());

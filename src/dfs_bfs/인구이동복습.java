@@ -16,7 +16,7 @@ class Union{
 	
 }
 
-public class ÀÎ±¸ÀÌµ¿º¹½À {
+public class ì¸êµ¬ì´ë™ë³µìŠµ {
 	public static int answer = 0;
 	public static int N,L,R;
 	public static int[][] graph;
@@ -73,7 +73,7 @@ public class ÀÎ±¸ÀÌµ¿º¹½À {
 				graph[i][j] = Integer.parseInt(strs[j]);
 			}
 		}
-		//¼ÂÆÃ
+		//ï¿½ï¿½ï¿½ï¿½
 		
 		while(true) {
 			int unionCnt = 0;

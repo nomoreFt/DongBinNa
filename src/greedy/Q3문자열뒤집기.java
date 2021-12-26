@@ -2,16 +2,16 @@ package greedy;
 
 import java.util.*;
 
-public class Q3¹®ÀÚ¿­µÚÁı±â {
+public class Q3ë¬¸ìì—´ë’¤ì§‘ê¸° {
 	public static String str;
-    public static int count0 = 0; // ÀüºÎ 0À¸·Î ¹Ù²Ù´Â °æ¿ì
-    public static int count1 = 0; // ÀüºÎ 1·Î ¹Ù²Ù´Â °æ¿ì
+    public static int count0 = 0; // ï¿½ï¿½ï¿½ï¿½ 0ï¿½ï¿½ï¿½ï¿½ ï¿½Ù²Ù´ï¿½ ï¿½ï¿½ï¿½
+    public static int count1 = 0; // ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ ï¿½Ù²Ù´ï¿½ ï¿½ï¿½ï¿½
 
 	public static void main(String[] args) {
 		 Scanner sc = new Scanner(System.in);
 	        str = sc.next();
 
-	        // Ã¹ ¹øÂ° ¿ø¼Ò¿¡ ´ëÇØ¼­ Ã³¸®
+	        // Ã¹ ï¿½ï¿½Â° ï¿½ï¿½ï¿½Ò¿ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ Ã³ï¿½ï¿½
 	        if (str.charAt(0) == '1') {
 	            count0 += 1;
 	        }
@@ -19,12 +19,12 @@ public class Q3¹®ÀÚ¿­µÚÁı±â {
 	            count1 += 1;
 	        }
 
-	        // µÎ ¹øÂ° ¿ø¼ÒºÎÅÍ ¸ğµç ¿ø¼Ò¸¦ È®ÀÎÇÏ¸ç
+	        // ï¿½ï¿½ ï¿½ï¿½Â° ï¿½ï¿½ï¿½Òºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ò¸ï¿½ È®ï¿½ï¿½ï¿½Ï¸ï¿½
 	        for (int i = 0; i < str.length() - 1; i++) {
 	            if (str.charAt(i) != str.charAt(i + 1)) {
-	                // ´ÙÀ½ ¼ö¿¡¼­ 1·Î ¹Ù²î´Â °æ¿ì
+	                // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ ï¿½Ù²ï¿½ï¿½ ï¿½ï¿½ï¿½
 	                if (str.charAt(i + 1) == '1') count0 += 1;
-	                // ´ÙÀ½ ¼ö¿¡¼­ 0À¸·Î ¹Ù²î´Â °æ¿ì
+	                // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 0ï¿½ï¿½ï¿½ï¿½ ï¿½Ù²ï¿½ï¿½ ï¿½ï¿½ï¿½
 	                else count1 += 1;
 	            }
 	        }

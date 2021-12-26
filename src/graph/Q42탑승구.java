@@ -2,8 +2,8 @@ package graph;
 
 import java.util.*;
 
-public class Q42Å¾½Â±¸ {
-	public static int G,P;//G Å¾½Â±¸ ,P ºñÇà±â
+public class Q42íƒ‘ìŠ¹êµ¬ {
+	public static int G,P;//G Å¾ï¿½Â±ï¿½ ,P ï¿½ï¿½ï¿½ï¿½ï¿½
 	public static int[] parent = new int[100001];
 	
 	public static int findParent(int x) {

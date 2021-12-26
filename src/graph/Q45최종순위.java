@@ -2,7 +2,7 @@ package graph;
 
 import java.util.*;
 
-public class Q45ÃÖÁ¾¼øÀ§ {
+public class Q45ìµœì¢…ìˆœìœ„ {
 	public static int testCase,n,m;
 	public static int[] indegree = new int[501];
 	public static boolean[][] graph = new boolean[501][501];

@@ -2,7 +2,7 @@ package dfs_bfs;
 
 import java.util.*;
 
-public class EXQ3À½·á¼ö¾ó·Á¸Ô±â {
+public class EXQ3ìŒë£Œìˆ˜ì–¼ë ¤ë¨¹ê¸° {
 	public static int N,M;
 	public static int[][] graph = new int[1001][1001];
 	public static int[] dx = {-1,0,1,0};

@@ -11,7 +11,7 @@ class Position{
 	}
 }
 
-public class Q17°æÀïÀûÀü¿°º¹½À {
+public class Q17ê²½ìŸì ì „ì—¼ë³µìŠµ {
 	public static int[][] graph = new int[201][201];
 	public static int N,K,S,X,Y;
 	public static int[] dx = {-1,1,0,0};

@@ -1,7 +1,7 @@
 package chapter04;
 import java.util.*;
 
-public class Q8¹®ÀÚ¿­ÀçÁ¤·Ä {
+public class Q8ë¬¸ìì—´ì¬ì •ë ¬ {
 	public static ArrayList<Character> alphas = new ArrayList<>();
 	public static String str = "";
 	public static void main(String[] args) {

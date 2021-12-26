@@ -20,7 +20,7 @@ class Virusv implements Comparable<Virusv>{
 	}
 }
 
-public class °æÀïÀûÀü¿°3 {
+public class ê²½ìŸì ì „ì—¼3 {
 	public static int N,K,S,X,Y;
 	public static ArrayList<Virusv> Virusves = new ArrayList<Virusv>();
 	public static int[][] graph;

@@ -19,7 +19,7 @@ class Node2 implements Comparable<Node2>{
 
 
 
-public class Q15Æ¯Á¤°Å¸®ÀÇµµ½ÃÃ£±â {
+public class Q15íŠ¹ì •ê±°ë¦¬ì˜ë„ì‹œì°¾ê¸° {
 	public static int n,m,k,x;
 	public static ArrayList<ArrayList<Node2>> graph = new ArrayList<ArrayList<Node2>>();
 	public static int[] d = new int[300001];
@@ -51,10 +51,10 @@ public class Q15Æ¯Á¤°Å¸®ÀÇµµ½ÃÃ£±â {
 		m=sc.nextInt();
 		k=sc.nextInt();
 		x=sc.nextInt();
-		//n ³ëµå
-		//m °£¼±
-		//k ÃÖ´Ü°Å¸®
-		//x ½ÃÀÛ³ëµå
+		//n ï¿½ï¿½ï¿½
+		//m ï¿½ï¿½ï¿½ï¿½
+		//k ï¿½Ö´Ü°Å¸ï¿½
+		//x ï¿½ï¿½ï¿½Û³ï¿½ï¿½
 		Arrays.fill(d,INF);
 		for(int i = 0; i <= n; i++) {
 			graph.add(new ArrayList<Node2>());

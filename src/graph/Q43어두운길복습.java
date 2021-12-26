@@ -2,9 +2,9 @@ package graph;
 
 import java.util.*;
 
-//ÃÖ¼Ò½ÅÀåÆ®¸®
-//Edge¸¸µé¾î¼­ ±æÀÌ¼øÀ¸·Î Á¤·Ä, cycle Ã¼Å©ÇÏ¸é¼­ unionParent
-public class Q43¾îµÎ¿î±æº¹½À {
+//ï¿½Ö¼Ò½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½
+//Edgeï¿½ï¿½ï¿½ï¿½î¼­ ï¿½ï¿½ï¿½Ì¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, cycle Ã¼Å©ï¿½Ï¸é¼­ unionParent
+public class Q43ì–´ë‘ìš´ê¸¸ë³µìŠµ {
 	public static int N,M;
 	public static int[] parent = new int[200001];
 	public static ArrayList<Edge> edges = new ArrayList<Edge>();

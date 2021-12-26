@@ -2,7 +2,7 @@ package graph;
 
 import java.util.*;
 
-public class Q41¿©Çà°èÈ¹ {
+public class Q41ì—¬í–‰ê³„íš {
 
 	public static int N,M;
 	public static int[] parent = new int[501];

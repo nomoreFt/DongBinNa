@@ -2,7 +2,7 @@ package greedy;
 
 import java.util.*;
 
-public class Q1¸ðÇè°¡±æµå {
+public class Q1ëª¨í—˜ê°€ê¸¸ë“œ {
 	public static int N;
 	public static ArrayList<Integer> arr = new ArrayList<>();
 	public static void main(String[] args) {

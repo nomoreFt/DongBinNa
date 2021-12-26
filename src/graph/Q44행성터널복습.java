@@ -1,8 +1,8 @@
 package graph;
 import java.util.*;
 
-//ÃÖ¼Ò½ÅÀå (N-1)°³ÀÇ °£¼±À¸·Î ¸¸µç´Ù¸¦ ±â¾ï
-public class Q44Çà¼ºÅÍ³Îº¹½À {
+//ï¿½Ö¼Ò½ï¿½ï¿½ï¿½ (N-1)ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ù¸ï¿½ ï¿½ï¿½ï¿½
+public class Q44í–‰ì„±í„°ë„ë³µìŠµ {
 	public static int N;
 	public static int[] parent = new int[100001];
 	public static ArrayList<Edge> edges = new ArrayList<>();
@@ -28,7 +28,7 @@ public class Q44Çà¼ºÅÍ³Îº¹½À {
 		ArrayList<Position> x = new ArrayList<Position>();
 		ArrayList<Position> y = new ArrayList<Position>();
 		ArrayList<Position> z = new ArrayList<Position>();
-		//x, y, z ÁÂÇ¥¸¦ ÀÛÀº ¼øÀ¸·Î Á¤·Ä
+		//x, y, z ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		for(int i = 1 ; i <= N; i++) {
 			int posx = sc.nextInt();
 			int posy = sc.nextInt();
