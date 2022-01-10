@@ -25,19 +25,29 @@ public class Q31금광 {
                 for(int i = 0; i < N; i++){ 
                     for(int j = 0; j < M; j++){
                      graph[i][j] = Integer.parseInt(strs[idx++]);   
+                     dp[i][j] = graph[i][j];
                     }
                 }
                 
-                for(int i = 0; i < N; i++){//dp  초기화
-                    dp[i][0] = graph[i][0];
-                }
-                
-                for(int i = 1; i < N; i++){
-                    for(int j = 0; j < M; i++){
+                for(int j = 1; j < M; j++){
+                    for(int i = 0; i < N; i++){
+                        int leftUp,left,leftDown;
+                        if(i == 0) leftUp = 0;
+                        else leftUp = dp[i-1][j-1];
                         
-                    }    
+                        if(i == N-1) leftDown = 0;
+                        else leftDown = dp[i+1][j-1];
+                        
+                        left = dp[i][j-1];
+                        
+                        dp[i][j] = dp[i][j] + Math.max(leftUp,Math.max(left,leftDown));
+                    }
                 }
-                
+                int result = 0;
+                for(int i = 0; i < N; i++){
+                    result = Math.max(result,dp[i][M-1]);
+                }
+                System.out.println(result);
 
 
             }
