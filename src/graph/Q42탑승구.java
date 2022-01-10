@@ -22,7 +22,6 @@ public class Q42탑승구 {
 		
 		G = sc.nextInt();
 		P = sc.nextInt();
-		
 		for(int i = 0; i <= G; i++) {
 			parent[i] = i;
 		}
@@ -36,6 +35,7 @@ public class Q42탑승구 {
 			unionParent(airplane,airplane-1);
 		}
 		
+		sc.close();
 		System.out.print(count);
 	}
 }
