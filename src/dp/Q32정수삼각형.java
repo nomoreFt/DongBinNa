@@ -22,7 +22,7 @@ public class Q32정수삼각형 {
                     dp[i][j] = graph[i][j];
                 }
             }
-            
+            //
             //열만큼 행 반복
             for(int i = 0; i < n-1; i++){
                 for(int j = 0; j < i+1; j++){
