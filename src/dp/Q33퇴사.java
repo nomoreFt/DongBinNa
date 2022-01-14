@@ -20,7 +20,7 @@ public class Q33퇴사 {
             p[i] = sc.nextInt();
         }
         // 배열을 뒤에서부터 거꾸로 확인
-        for (int i = n - 1; i >= 0; i--) {
+   /*     for (int i = n - 1; i >= 0; i--) {
             int time = t[i] + i;
             // 상담이 기간 안에 끝나는 경우
             if (time <= n) {
@@ -33,9 +33,24 @@ public class Q33퇴사 {
             }
             // 상담이 기간을 벗어나는 경우
             else dp[i] = maxValue;
-        }
+        }*/
 
-        System.out.println(maxValue);
+
+        for (int i = 0; i < n; i++) {
+            int time = t[i] + i;
+            // 상담이 기간 안에 끝나는 경우
+            if (time <= n) {
+                // 점화식에 맞게, 현재까지의 최고 이익 계산
+                //i가 현재 (현 상황 1일차, 2일차 ..)
+                //dp[4] 4일차에서 얻을 수 있는 최대 값은
+                //p[i] (현재 날의 값) + dp[time] (상담 끝나는 날 얻을 수 있는 최대 금액), maxValue
+                dp[time] = Math.max(p[i] + dp[i], dp[time]);
+            }
+            //1. 현재 경우의 수가 0일 경우 이전의 최대값을 넣어줌 (이전에도 이미 상담을 진행했다면 받은 금액 유지)
+            //2. 해당 날짜에 일할 수 없다면, 이전까지 일한 최대 수당을 넣어줌
+            dp[i+1] = Math.max(dp[i+1],dp[i]);
+        }//for   
+        System.out.println(dp[n]);
     }
     }
     
