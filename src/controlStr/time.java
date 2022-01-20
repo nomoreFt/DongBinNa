@@ -1,4 +1,4 @@
-package String;
+package controlStr;
 
 import java.io.*;
 import java.util.Date;
