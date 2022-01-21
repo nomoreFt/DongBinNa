@@ -19,7 +19,7 @@ public class 정확한순위 {
                 if(i==j) graph[i][j] = 0;
             }
         }
-        
+        //
         for(int i = 0; i < m; i++){
             int a = sc.nextInt();
             int b = sc.nextInt();
@@ -44,7 +44,7 @@ public class 정확한순위 {
             if(count == n) result++;
         }
         System.out.println(result);
-        
+
         sc.close();
     }
     
