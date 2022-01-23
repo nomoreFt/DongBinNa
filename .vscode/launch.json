@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch 숨바꼭질",
+            "request": "launch",
+            "mainClass": "최단거리.숨바꼭질",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
             "name": "Launch 나무자르기",
             "request": "launch",
             "mainClass": "이진탐색.나무자르기",
