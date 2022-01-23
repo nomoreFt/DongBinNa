@@ -1,6 +1,5 @@
 package 이진탐색;
 
-import java.util.*;
 import java.io.*;
 class 떡볶이떡{
     public static int N,M;

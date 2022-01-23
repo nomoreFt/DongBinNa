@@ -1,0 +1,434 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch 나무자르기",
+            "request": "launch",
+            "mainClass": "이진탐색.나무자르기",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q13치킨배달",
+            "request": "launch",
+            "mainClass": "chapter04.Q13치킨배달",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q7럭키스트레이트",
+            "request": "launch",
+            "mainClass": "chapter04.Q7럭키스트레이트",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q7복습",
+            "request": "launch",
+            "mainClass": "chapter04.Q7복습",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q8문자열재정렬",
+            "request": "launch",
+            "mainClass": "chapter04.Q8문자열재정렬",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch 상하좌우",
+            "request": "launch",
+            "mainClass": "chapter04.상하좌우",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch 시각",
+            "request": "launch",
+            "mainClass": "chapter04.시각",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverse",
+            "request": "launch",
+            "mainClass": "controlStr.reverse",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch time",
+            "request": "launch",
+            "mainClass": "controlStr.time",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch 팰린드롬수",
+            "request": "launch",
+            "mainClass": "controlStr.팰린드롬수",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch BFS",
+            "request": "launch",
+            "mainClass": "dfs_bfs.BFS",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch DFS",
+            "request": "launch",
+            "mainClass": "dfs_bfs.DFS",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch EXQ3음료수얼려먹기",
+            "request": "launch",
+            "mainClass": "dfs_bfs.EXQ3음료수얼려먹기",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch EXQ4미로탈출",
+            "request": "launch",
+            "mainClass": "dfs_bfs.EXQ4미로탈출",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q15특정거리의도시찾기",
+            "request": "launch",
+            "mainClass": "dfs_bfs.Q15특정거리의도시찾기",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q15특정거리의도시찾기복습",
+            "request": "launch",
+            "mainClass": "dfs_bfs.Q15특정거리의도시찾기복습",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q16연구소",
+            "request": "launch",
+            "mainClass": "dfs_bfs.Q16연구소",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q16연구소_comb",
+            "request": "launch",
+            "mainClass": "dfs_bfs.Q16연구소_comb",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q17경쟁적전염",
+            "request": "launch",
+            "mainClass": "dfs_bfs.Q17경쟁적전염",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q17경쟁적전염복습",
+            "request": "launch",
+            "mainClass": "dfs_bfs.Q17경쟁적전염복습",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q19연산자끼워넣기",
+            "request": "launch",
+            "mainClass": "dfs_bfs.Q19연산자끼워넣기",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q20감시피하기_comb",
+            "request": "launch",
+            "mainClass": "dfs_bfs.Q20감시피하기_comb",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q20인구이동",
+            "request": "launch",
+            "mainClass": "dfs_bfs.Q20인구이동",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch 감시피하기복습2",
+            "request": "launch",
+            "mainClass": "dfs_bfs.감시피하기복습2",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch 경쟁적전염3",
+            "request": "launch",
+            "mainClass": "dfs_bfs.경쟁적전염3",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch 인구이동복습",
+            "request": "launch",
+            "mainClass": "dfs_bfs.인구이동복습",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q31금광",
+            "request": "launch",
+            "mainClass": "dp.Q31금광",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q31금광복습",
+            "request": "launch",
+            "mainClass": "dp.Q31금광복습",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q32정수삼각형",
+            "request": "launch",
+            "mainClass": "dp.Q32정수삼각형",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q33퇴사",
+            "request": "launch",
+            "mainClass": "dp.Q33퇴사",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q33퇴사복습",
+            "request": "launch",
+            "mainClass": "dp.Q33퇴사복습",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q34병사배치",
+            "request": "launch",
+            "mainClass": "dp.Q34병사배치",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q35못생긴수",
+            "request": "launch",
+            "mainClass": "dp.Q35못생긴수",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q36편집거리",
+            "request": "launch",
+            "mainClass": "dp.Q36편집거리",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q41여행계획",
+            "request": "launch",
+            "mainClass": "graph.Q41여행계획",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q42탑승구",
+            "request": "launch",
+            "mainClass": "graph.Q42탑승구",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q43어두운길",
+            "request": "launch",
+            "mainClass": "graph.Q43어두운길",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q43어두운길복습",
+            "request": "launch",
+            "mainClass": "graph.Q43어두운길복습",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q44행성터널",
+            "request": "launch",
+            "mainClass": "graph.Q44행성터널",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q44행성터널복습",
+            "request": "launch",
+            "mainClass": "graph.Q44행성터널복습",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q45최종순위",
+            "request": "launch",
+            "mainClass": "graph.Q45최종순위",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q45최종순위복습",
+            "request": "launch",
+            "mainClass": "graph.Q45최종순위복습",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q1모험가길드",
+            "request": "launch",
+            "mainClass": "greedy.Q1모험가길드",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q2곱하기혹은더하기",
+            "request": "launch",
+            "mainClass": "greedy.Q2곱하기혹은더하기",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q3문자열뒤집기",
+            "request": "launch",
+            "mainClass": "greedy.Q3문자열뒤집기",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q4만들수없는금액",
+            "request": "launch",
+            "mainClass": "greedy.Q4만들수없는금액",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q5볼링공고르기",
+            "request": "launch",
+            "mainClass": "greedy.Q5볼링공고르기",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q27",
+            "request": "launch",
+            "mainClass": "이진탐색.Q27",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q28",
+            "request": "launch",
+            "mainClass": "이진탐색.Q28",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q29",
+            "request": "launch",
+            "mainClass": "이진탐색.Q29",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch 떡볶이떡",
+            "request": "launch",
+            "mainClass": "이진탐색.떡볶이떡",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch 부품찾기",
+            "request": "launch",
+            "mainClass": "이진탐색.부품찾기",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q23국영수",
+            "request": "launch",
+            "mainClass": "정렬.Q23국영수",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q24안테나",
+            "request": "launch",
+            "mainClass": "정렬.Q24안테나",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q26카드정렬하기",
+            "request": "launch",
+            "mainClass": "정렬.Q26카드정렬하기",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q37미래도시",
+            "request": "launch",
+            "mainClass": "최단거리.Q37미래도시",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q37전보",
+            "request": "launch",
+            "mainClass": "최단거리.Q37전보",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch dijkstra",
+            "request": "launch",
+            "mainClass": "최단거리.dijkstra",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch 플로이드",
+            "request": "launch",
+            "mainClass": "최단거리.플로이드",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch 플로이드워셜",
+            "request": "launch",
+            "mainClass": "최단거리.플로이드워셜",
+            "projectName": "DongBinNa"
+        }
+    ]
+}
