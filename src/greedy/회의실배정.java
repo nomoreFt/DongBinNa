@@ -10,6 +10,8 @@ import java.util.*;
  * 종료시간에 맞춰 정렬 (같으면 시작시간기준 오름차순)
  * 이후 종료시간이 가장 빠른 것순으로 차례차례 담고, 다음 종료시간이 빠른 아이의 시작시간이 
  * 이전 종료시간과 같거나 크면 담음, 그리고 이후 종료시간을 그 아이의 종료시간으로 초기화
+ * 
+ * https://st-lab.tistory.com/145
  */
 public class 회의실배정 {
     static class Conf implements Comparable<Conf>{
