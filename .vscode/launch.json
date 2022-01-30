@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch 행성터널",
+            "request": "launch",
+            "mainClass": "크루스칼.행성터널",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
             "name": "Launch 숨바꼭질",
             "request": "launch",
             "mainClass": "최단거리.숨바꼭질",
