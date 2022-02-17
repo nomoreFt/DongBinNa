@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "DongBinNa"
+        },
+        {
+            "type": "java",
             "name": "Launch 숨바꼭질",
             "request": "launch",
             "mainClass": "최단거리.숨바꼭질",
